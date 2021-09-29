@@ -1,0 +1,28 @@
+.background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.modal-container {
+  z-index: 101;
+  width: 800px;
+  box-sizing: 0 5px 16px rgba(0, 0, 0, 0.3);
+  min-height: 300px;
+  overflow-y: auto;
+  height: 500px;
+  position: relative;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
